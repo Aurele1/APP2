@@ -7,7 +7,7 @@ def score (copie):
         c=copie["diplomatic_level"]
     for "fuel" in copie:
         d=copie["fuel"]
-
+    for "scoring" in copie:
         "scoring" = a+b+c+d
     return "scoring"
 
