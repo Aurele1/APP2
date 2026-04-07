@@ -15,10 +15,11 @@ def score (copie):
     
 
 
+def defragmentation_du_fuel(liste_avions, fuel_perdue):
+    for avion in liste_avions:
+        avion["fuel"] -= fuel_perdue
 
-
-
-
+    return liste_avions
 
 
         
